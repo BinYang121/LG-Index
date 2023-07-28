@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RandomClassificationForestModel>
+    <Messages>
+        <Author>Gu XF</Author>
+        <Email>gxf1027@126.com</Email>
+        <CreateTime>2023-04-19 08:05:02</CreateTime>
+    </Messages>
+    <RF_model_parameters>
+        <Trees_in_forest N="5"/>
+        <Variables_to_split M="2"/>
+        <MaxDepth maxdepth="4"/>
+        <MinSamplesSplit min_samples_split="3"/>
+        <Randomness randomness="1"/>
+    </RF_model_parameters>
+    <Train_data_info>
+        <Samples samples_num="8000"/>
+        <Variables variables_num="4"/>
+        <Classes classes_num="4"/>
+    </Train_data_info>
+    <TREES>
+        <Tree tree_index="0" depth="3" leaf_nodes_num="7">
+            <Depth dIndex="0" Nodes="1">
+                <elem_node type="0" index="0" split_variable_index="1" split_value="8.5"/>
+            </Depth>
+            <Depth dIndex="1" Nodes="2">
+                <elem_node type="1" index="0" split_variable_index="1" split_value="7.5"/>
+                <elem_node type="1" index="1" split_variable_index="1" split_value="11.5"/>
+            </Depth>
+            <Depth dIndex="2" Nodes="4">
+                <elem_node type="2" index="0" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="1" class0="1" class1="0" class2="0" class3="0"/>
+                <elem_node type="1" index="1" split_variable_index="2" split_value="3.5"/>
+                <elem_node type="1" index="2" split_variable_index="2" split_value="2.5"/>
+                <elem_node type="1" index="3" split_variable_index="1" split_value="13.5"/>
+            </Depth>
+            <Depth dIndex="3" Nodes="6">
+                <elem_node type="2" index="2" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.98673946" class0="0.98673946" class1="0.01326053" class2="0" class3="0"/>
+                <elem_node type="2" index="3" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.9240759" class0="0.9240759" class1="0.075924076" class2="0" class3="0"/>
+                <elem_node type="2" index="4" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.61318052" class0="0.38395417" class1="0.61318052" class2="0.0028653296" class3="0"/>
+                <elem_node type="2" index="5" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.96099532" class0="0.037659716" class1="0.96099532" class2="0.0013449899" class3="0"/>
+                <elem_node type="2" index="6" split_variable_index="-1" split_value="0" leaf_node_label="2" leaf_confidence="0.88333333" class0="0" class1="0.11666667" class2="0.88333333" class3="0"/>
+                <elem_node type="2" index="7" split_variable_index="-1" split_value="0" leaf_node_label="3" leaf_confidence="0.98148149" class0="0" class1="0" class2="0.018518519" class3="0.98148149"/>
+            </Depth>
+        </Tree>
+        <Tree tree_index="1" depth="3" leaf_nodes_num="7">
+            <Depth dIndex="0" Nodes="1">
+                <elem_node type="0" index="0" split_variable_index="1" split_value="8.5"/>
+            </Depth>
+            <Depth dIndex="1" Nodes="2">
+                <elem_node type="1" index="0" split_variable_index="1" split_value="7.5"/>
+                <elem_node type="1" index="1" split_variable_index="1" split_value="11.5"/>
+            </Depth>
+            <Depth dIndex="2" Nodes="4">
+                <elem_node type="2" index="0" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="1" class0="1" class1="0" class2="0" class3="0"/>
+                <elem_node type="1" index="1" split_variable_index="2" split_value="4.5"/>
+                <elem_node type="1" index="2" split_variable_index="1" split_value="9.5"/>
+                <elem_node type="1" index="3" split_variable_index="1" split_value="13.5"/>
+            </Depth>
+            <Depth dIndex="3" Nodes="6">
+                <elem_node type="2" index="2" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.97067118" class0="0.97067118" class1="0.029328821" class2="0" class3="0"/>
+                <elem_node type="2" index="3" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.8878327" class0="0.8878327" class1="0.1121673" class2="0" class3="0"/>
+                <elem_node type="2" index="4" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.81094223" class0="0.18905775" class1="0.81094223" class2="0" class3="0"/>
+                <elem_node type="2" index="5" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.98706895" class0="0.010775862" class1="0.98706895" class2="0.0021551724" class3="0"/>
+                <elem_node type="2" index="6" split_variable_index="-1" split_value="0" leaf_node_label="2" leaf_confidence="0.92528737" class0="0" class1="0.074712642" class2="0.92528737" class3="0"/>
+                <elem_node type="2" index="7" split_variable_index="-1" split_value="0" leaf_node_label="3" leaf_confidence="0.96551722" class0="0" class1="0" class2="0.034482758" class3="0.96551722"/>
+            </Depth>
+        </Tree>
+        <Tree tree_index="2" depth="3" leaf_nodes_num="7">
+            <Depth dIndex="0" Nodes="1">
+                <elem_node type="0" index="0" split_variable_index="3" split_value="1.8888888"/>
+            </Depth>
+            <Depth dIndex="1" Nodes="2">
+                <elem_node type="1" index="0" split_variable_index="2" split_value="4.5"/>
+                <elem_node type="1" index="1" split_variable_index="3" split_value="2.6190476"/>
+            </Depth>
+            <Depth dIndex="2" Nodes="4">
+                <elem_node type="2" index="0" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.99265629" class0="0.99265629" class1="0.0073436843" class2="0" class3="0"/>
+                <elem_node type="1" index="1" split_variable_index="3" split_value="1.7638888"/>
+                <elem_node type="1" index="2" split_variable_index="2" split_value="2.5"/>
+                <elem_node type="1" index="3" split_variable_index="3" split_value="3.0555556"/>
+            </Depth>
+            <Depth dIndex="3" Nodes="6">
+                <elem_node type="2" index="2" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="1" class0="1" class1="0" class2="0" class3="0"/>
+                <elem_node type="2" index="3" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.91778201" class0="0.91778201" class1="0.082217976" class2="0" class3="0"/>
+                <elem_node type="2" index="4" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.5020408" class0="0.4979592" class1="0.5020408" class2="0" class3="0"/>
+                <elem_node type="2" index="5" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.81932771" class0="0.18067227" class1="0.81932771" class2="0" class3="0"/>
+                <elem_node type="2" index="6" split_variable_index="-1" split_value="0" leaf_node_label="2" leaf_confidence="0.75355452" class0="0.047393367" class1="0.19905214" class2="0.75355452" class3="0"/>
+                <elem_node type="2" index="7" split_variable_index="-1" split_value="0" leaf_node_label="3" leaf_confidence="0.86274511" class0="0" class1="0.11764706" class2="0.019607844" class3="0.86274511"/>
+            </Depth>
+        </Tree>
+        <Tree tree_index="3" depth="3" leaf_nodes_num="7">
+            <Depth dIndex="0" Nodes="1">
+                <elem_node type="0" index="0" split_variable_index="3" split_value="1.8888888"/>
+            </Depth>
+            <Depth dIndex="1" Nodes="2">
+                <elem_node type="1" index="0" split_variable_index="1" split_value="7.5"/>
+                <elem_node type="1" index="1" split_variable_index="1" split_value="8.5"/>
+            </Depth>
+            <Depth dIndex="2" Nodes="4">
+                <elem_node type="2" index="0" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="1" class0="1" class1="0" class2="0" class3="0"/>
+                <elem_node type="1" index="1" split_variable_index="2" split_value="4.5"/>
+                <elem_node type="1" index="2" split_variable_index="0" split_value="7.5"/>
+                <elem_node type="1" index="3" split_variable_index="1" split_value="11.5"/>
+            </Depth>
+            <Depth dIndex="3" Nodes="6">
+                <elem_node type="2" index="2" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.98676372" class0="0.98676372" class1="0.013236267" class2="0" class3="0"/>
+                <elem_node type="2" index="3" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.88796681" class0="0.88796681" class1="0.1120332" class2="0" class3="0"/>
+                <elem_node type="2" index="4" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.99378884" class0="0.99378884" class1="0.0062111802" class2="0" class3="0"/>
+                <elem_node type="2" index="5" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.8671875" class0="0.8671875" class1="0.1328125" class2="0" class3="0"/>
+                <elem_node type="2" index="6" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.85873604" class0="0.13894051" class1="0.85873604" class2="0.00232342" class3="0"/>
+                <elem_node type="2" index="7" split_variable_index="-1" split_value="0" leaf_node_label="2" leaf_confidence="0.71020406" class0="0" class1="0.073469386" class2="0.71020406" class3="0.21632653"/>
+            </Depth>
+        </Tree>
+        <Tree tree_index="4" depth="3" leaf_nodes_num="7">
+            <Depth dIndex="0" Nodes="1">
+                <elem_node type="0" index="0" split_variable_index="3" split_value="1.8888888"/>
+            </Depth>
+            <Depth dIndex="1" Nodes="2">
+                <elem_node type="1" index="0" split_variable_index="0" split_value="8.5"/>
+                <elem_node type="1" index="1" split_variable_index="1" split_value="8.5"/>
+            </Depth>
+            <Depth dIndex="2" Nodes="4">
+                <elem_node type="2" index="0" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="1" class0="1" class1="0" class2="0" class3="0"/>
+                <elem_node type="1" index="1" split_variable_index="2" split_value="4.5"/>
+                <elem_node type="1" index="2" split_variable_index="2" split_value="3.5"/>
+                <elem_node type="1" index="3" split_variable_index="1" split_value="11.5"/>
+            </Depth>
+            <Depth dIndex="3" Nodes="6">
+                <elem_node type="2" index="2" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.98320413" class0="0.98320413" class1="0.016795866" class2="0" class3="0"/>
+                <elem_node type="2" index="3" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.891635" class0="0.891635" class1="0.10836502" class2="0" class3="0"/>
+                <elem_node type="2" index="4" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.98011363" class0="0.98011363" class1="0.019886363" class2="0" class3="0"/>
+                <elem_node type="2" index="5" split_variable_index="-1" split_value="0" leaf_node_label="0" leaf_confidence="0.53061223" class0="0.53061223" class1="0.46938777" class2="0" class3="0"/>
+                <elem_node type="2" index="6" split_variable_index="-1" split_value="0" leaf_node_label="1" leaf_confidence="0.85492229" class0="0.14460669" class1="0.85492229" class2="0.00047103156" class3="0"/>
+                <elem_node type="2" index="7" split_variable_index="-1" split_value="0" leaf_node_label="2" leaf_confidence="0.68558949" class0="0" class1="0.065502182" class2="0.68558949" class3="0.2489083"/>
+            </Depth>
+        </Tree>
+    </TREES>
+</RandomClassificationForestModel>
