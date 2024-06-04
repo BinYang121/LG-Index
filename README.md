@@ -1,1 +1,1 @@
-# LG-Index
+# LG-Index: Learning-based Graph Indexing for Subgraph Queries
