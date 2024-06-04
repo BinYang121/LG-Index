@@ -1,8 +1,6 @@
 LGI-CFQL-master
 ==========
 
-Bin Yang, July 2023.
-
 This code implements LGI-CFQL. We have compiled the code to 'lgi' with g++ 7.5.0, and you can run it directly.
 
 To run the algorithm, first type
